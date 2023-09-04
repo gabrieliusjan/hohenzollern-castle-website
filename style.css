@@ -1,0 +1,202 @@
+body
+{
+    font-family: Lucida Sans Unicode;
+    width: 1903px;
+    height: 2160px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+hr
+{
+    margin: -1px 0;
+}
+.content
+{
+    width: 1223px;
+    height: 2160px;
+    background-color: lightgray;
+    position: absolute;
+    left: 340px;
+    box-shadow: 0 0 5px 0;
+
+}
+.form
+{
+    display: inline-flex;
+    margin: 50px 90px;
+    background-color: white;
+    border-style: groove;
+    border: 3px solid darkkhaki;
+}
+.form p
+{
+    padding: 20px 20px;
+    margin: 130px 130px;
+    text-align: left;
+    background-color: white;
+    border-style: groove;
+    border: 3px solid darkkhaki;
+}
+header
+{
+    height: 220px;
+    background-color: darkkhaki;
+}
+header div a
+{
+    text-decoration: none;
+    color: inherit;
+    font-size: 32px;
+    padding: 5px 5px;
+    margin: 20px 106px;
+    display: inline-block;
+}
+header ul
+{
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+    padding: 5px 5px;
+    margin: 41px 54px;
+}
+header nav ul li a
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 5px;
+    margin: 0 50px;
+}
+header nav ul li a:hover
+{
+    color: white;
+}
+img
+{
+    object-fit: cover;
+    display: inline-block;
+}
+table, td, th
+{
+    border: 1px solid black;
+}
+th
+{
+    background-color: #ddd;
+}
+.events
+{
+    padding: 10px 10px;
+}
+caption
+{   
+    padding: 5px 5px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+table
+{
+    caption-side: top;
+    border-collapse: separate;
+    border-spacing: 5px;
+    width: 100%;
+}
+th, td{
+    padding: 10px;
+}
+.container 
+{
+    position: relative;
+    text-align: center;
+    text-shadow: 3px 3px 2px black;
+    color: white;
+}
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+}
+h1
+{
+    text-align: center;
+    margin: 50px 0;
+}
+h2
+{
+    text-align: center;
+    margin: 50px 0;
+}
+h3
+{
+    text-align: center;
+    margin: 159px 0;
+}
+section
+{
+    margin: 50px 0;
+}
+p
+{
+    padding: 10px 10px;
+    margin: 0 120px;
+    text-align: left;
+    width: 80%;
+}
+.contacts__faq
+{
+    padding: 10px 10px;
+    margin: 0 60px;
+    text-align: left;
+    float: left;
+}
+.contacts__img img
+{
+    margin: 87px 0;
+}
+.castle__map img
+{   
+    margin: 5px 306px;
+}
+.castle__overhead img
+{
+    margin: 30px 306px;
+}
+figure
+{
+    padding: 30px 20px;
+    margin: -16px 50px;
+    text-align: center;
+}
+footer
+{
+    width: 1223px;
+    height: 120px;
+    background-color: darkkhaki;
+    position: absolute;
+    bottom: 0;
+}
+footer div
+{
+    text-align: center;
+    padding: 5px 5px;
+    margin: 41px 300px;
+    display: inline-flex;
+
+}
+footer div a
+{
+    font-size: 18px;
+    color: inherit;
+}
+footer div p
+{
+    padding: 5px 5px;
+    margin: -10px 25px;
+    text-align: center;
+    width: 100%;
+}
